@@ -571,18 +571,27 @@
     </update>
 
     <!-- 서포터 후원 리스트 가져오는 쿼리 -->
+<!--    <select id="selectSupportList" parameterType="int" resultMap="selectSupportListResultMap">-->
+<!--        SELECT-->
+<!--            o.mem_id,-->
+<!--            o.order_date,-->
+<!--            o.final_pay,-->
+<!--            t.order_amount,-->
+<!--            w.rew_amount-->
+<!--            FROM order_payment o-->
+<!--            JOIN order_opt t ON (o.order_code = t.order_no)-->
+<!--            JOIN reward_opt w ON (t.rew_opt_code = w.rew_opt_code)-->
+<!--            WHERE o.pro_code = #{proCode}-->
+<!--            ORDER BY o.order_date desc-->
+<!--    </select>-->
     <select id="selectSupportList" parameterType="int" resultMap="selectSupportListResultMap">
         SELECT
-            o.mem_id,
-            o.order_date,
-            o.final_pay,
-            t.order_amount,
-            w.rew_amount
-            FROM order_payment o
-            JOIN order_opt t ON (o.order_code = t.order_no)
-            JOIN reward_opt w ON (t.rew_opt_code = w.rew_opt_code)
-            WHERE o.pro_code = #{proCode}
-            ORDER BY o.order_date desc
+            mem_id,
+            order_date,
+            final_pay
+        FROM order_payment
+        WHERE pro_code = #{proCode}
+        ORDER BY order_date desc
     </select>
 
     <!-- 후원 정산 내역 -->

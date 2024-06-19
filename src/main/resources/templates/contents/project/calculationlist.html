@@ -29,6 +29,7 @@
             <div class="projectbox" id="proCode" th:each="callist : ${calculationList}">
                 <a th:href="@{|/project/projectDetail/${callist.proCode}|}">
                     <img  class="thumbimg" src="/image/thumb1.jpg" alt="프로젝트 썸네일"/>
+<!--                    <img  class="thumbimg" th:src="@{|/image/${callist.image[0].proImgName}|}" alt="프로젝트 썸네일"/>-->
                 </a>
                 <h3 th:text="${callist.proName}"></h3>
                 <div class="d-flex calBox">
