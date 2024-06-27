@@ -20,3 +20,16 @@
 |서버|Apache Tomcat|
 |개발 툴|IntelliJ , VSCode , MySQL Workbench|
 |형상 관리|GitHub|
+
+<h2>DB(ERD)</h2>
+
+![image](https://github.com/daeun100299/SemiProject_Companimal/assets/153487628/5b8879de-9054-444f-8287-0153c04a7b18)
+
+<h2>역할</h2>
+
+|이름|역할|
+|---|---|
+|김동환|로그인, 크리에이터 심사|
+|김정희|펀딩 프로젝트 등록, 펀딩 프로젝트 심사|
+|김지환|결제, 문의|
+|박다은|펀딩 내역 조회, 펀딩 정산|
