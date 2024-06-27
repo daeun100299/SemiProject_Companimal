@@ -3,28 +3,24 @@
 <p>이런 제품들을 쉽게 시도를 못하고, 자본금이 부족한 개인이나 소규모 기업들도 쉽게 참여할 수 있도록 클라우드 펀딩을 채택하여 부담 없이 상품을 기획하고 판매를 할 수 있겠금 platform을 제공하는 것입니다.</p>
 <p>우선 저희 팀의 가장 핵심 motive는 반려동물과 주인의 행복과 건강을 위한 제품을 더 쉽게 접할 수 있고, 이를 통해 세상에 존재하는 많은 반려물과 주인들의 특별한 순간을 더욱 더 특별하게 만들어 주고자 합니다.</p>
 
+<br></br>
 <h2>주요 기능</h2>
 
 |서포터|크리에이터|매니저|
 |--|--|--|
 |<ul><li>회원 정보 관리<ul><li>회원가입</li><li>로그인</li><li>회원 정보 수정</li><li>회원 탈퇴</li></ul></li><li>펀딩 내역 관리<ul><li>펀딩한 프로젝트 조회</li><li>관심 프로젝트 조회</li><li>리워드 배송 현황</li></ul></li><li>결제 관리<ul><li>결제(카카오페이)</li><li>쿠폰</li></ul></li></ul>|<ul><li>회원 정보 관리<ul><li>회원가입</li><li>로그인</li><li>회원 정보 수정</li><li>크리에이터 인증</li><li>회원 탈퇴</li></ul></li><li>펀딩 프로젝트 관리<ul><li>펀딩 등록</li><li>진행 중인 펀딩 조회(펀딩 진행 현황)</li><li>종료된 펀딩 조회</li></ul></li><li>정산 관리<ul><li>후원금 최종 정산 내역 확인</li></ul></li></ul>|<ul><li>크리에이터 관리<ul><li>크리에이터 인증 심사</li></ul></li><li>펀딩 프로젝트 관리<ul><li>펀딩 프로젝트 심사</li></ul></li></ul>|
 
+<br></br>
 <h2>개발 환경</h2>
 
-|---|---|
-|---|---|
-|백엔드|Java , Spring , Spring boot , Spring Data JPA|
-|프론트엔드|HTML , CSS , Javascript|
-|DB|MySQL|
-|라이브러리|jsonwebtoken:jwt , bootstrap , jQuery|
-|서버|Apache Tomcat|
-|개발 툴|IntelliJ , VSCode , MySQL Workbench|
-|형상 관리|GitHub|
+![포트폴리오](https://github.com/daeun100299/SemiProject_Companimal/assets/153487628/2e2b8691-59d4-4f03-bbd2-b833b8cc16be)
 
+<br></br>
 <h2>DB(ERD)</h2>
 
 ![image](https://github.com/daeun100299/SemiProject_Companimal/assets/153487628/5b8879de-9054-444f-8287-0153c04a7b18)
 
+<br></br>
 <h2>역할</h2>
 <ol>
   <li>김동환 : 로그인, 크리에이터 심사</li>
