@@ -6,8 +6,7 @@
 <br></br>
 <h2>프로젝트 기간</h2>
 
-![단락 텍스트](https://github.com/daeun100299/SemiProject_Companimal/assets/153487628/193eb5c0-2369-4562-92b8-ea0ac8bf6d86)
-
+![단락 텍스트](https://github.com/daeun100299/SemiProject_Companimal/assets/153487628/252c6e90-f85f-47de-8eb1-0afc8fb91f5f)
 
 <br></br>
 <h2>주요 기능</h2>
