@@ -4,8 +4,19 @@
 <p>우선 저희 팀의 가장 핵심 motive는 반려동물과 주인의 행복과 건강을 위한 제품을 더 쉽게 접할 수 있고, 이를 통해 세상에 존재하는 많은 반려물과 주인들의 특별한 순간을 더욱 더 특별하게 만들어 주고자 합니다.</p>
 
 <h2>주요 기능</h2>
-<div style="display: flex; justify-content: center; align-items: center;">
-  <img src="https://github.com/daeun100299/SemiProject_Companimal/assets/153487628/ebf6c443-f136-411b-9a86-33aab5cf6e09" alt="Image 1" style="margin: 10px;">
-  <img src="https://github.com/daeun100299/SemiProject_Companimal/assets/153487628/d3111cc8-e277-4a3c-8387-4c4f4f232ad9" alt="Image 2" style="margin: 10px;">
-  <img src="https://github.com/daeun100299/SemiProject_Companimal/assets/153487628/ca3fb57d-1b38-4c43-8135-3503d24e5f98" alt="Image 3" style="margin: 10px;">
-</div>
+
+|서포터|크리에이터|매니저|
+|--|--|--|
+|<ul><li>회원 정보 관리<ul><li>회원가입</li><li>로그인</li><li>회원 정보 수정</li><li>회원 탈퇴</li></ul></li><li>펀딩 내역 관리<ul><li>펀딩한 프로젝트 조회</li><li>관심 프로젝트 조회</li><li>리워드 배송 현황</li></ul></li><li>결제 관리<ul><li>결제(카카오페이)</li><li>쿠폰</li></ul></li></ul>|<ul><li>회원 정보 관리<ul><li>회원가입</li><li>로그인</li><li>회원 정보 수정</li><li>크리에이터 인증</li><li>회원 탈퇴</li></ul></li><li>펀딩 프로젝트 관리<ul><li>펀딩 등록</li><li>진행 중인 펀딩 조회(펀딩 진행 현황)</li><li>종료된 펀딩 조회</li></ul></li><li>정산 관리<ul><li>후원금 최종 정산 내역 확인</li></ul></li></ul>|<ul><li>크리에이터 관리<ul><li>크리에이터 인증 심사</li></ul></li><li>펀딩 프로젝트 관리<ul><li>펀딩 프로젝트 심사</li></ul></li></ul>|
+
+<h2>개발 환경</h2>
+
+|---|---|
+|---|---|
+|백엔드|Java , Spring , Spring boot , Spring Data JPA|
+|프론트엔드|HTML , CSS , Javascript|
+|DB|MySQL|
+|라이브러리|jsonwebtoken:jwt , bootstrap , jQuery|
+|서버|Apache Tomcat|
+|개발 툴|IntelliJ , VSCode , MySQL Workbench|
+|형상 관리|GitHub|
